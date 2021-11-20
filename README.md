@@ -39,11 +39,31 @@ Lets take a closer look at the results:-
 ## Election-Audit Summary
 In conclusion, using our Python script is a very easy and efficient way to analyze large datasets and extract the required information.
 
-Manually counting ballots is very time consuming as well as labour intensive and there is always a chance for human error. Whereas our Python script can do the same job in a very convinient, accurate and fast manner. 
+Manually counting ballots is time consuming as well as labour intensive and there is always a chance for human error. Whereas our Python script can do the same job in a very convinient, accurate and fast manner. This inturn will save money for the Election Board.
 
 With little modifications our script can be used for any elections and may be used to extract different information. Here are two examples:-
-*
+* Python is a versatile language and can extract data from numerous file types other then CSV. Modify this line to change the file type. As a result, we can use other types of datasets for any other elections. 
+
+```
+# Add our dependencies.
+import csv
+```
+
+```
+# Read the csv and convert it into a list of dictionaries
+with open(file_to_load) as election_data:
+    reader = csv.reader(election_data)
+```
+
+* Our script can easily pull data from any directories of the PC and can output the desired results in any output folders. Modify the following line to change the input dataset and output folders.
+
+```
+# Add a variable to load a file from a path.
+file_to_load = os.path.join("Resources", "election_results.csv")
+# Add a variable to save the file to a path.
+file_to_save = os.path.join("analysis", "election_results.txt")
+```
 
 * _**Links**_
-  * Visit this [link](https://github.com/tanzimamin2/kickstarter-analysis) for the excel worksheet and other resources.
+  * Visit this [link](https://github.com/tanzimamin2/kickstarter-analysis) for the Python script and other resources.
    
