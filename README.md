@@ -65,5 +65,5 @@ file_to_save = os.path.join("analysis", "election_results.txt")
 ```
 
 * _**Links**_
-  * Visit this [link](https://github.com/tanzimamin2/kickstarter-analysis) for the Python script and other resources.
+  * Visit this [link](https://github.com/tanzimamin2/Election_Analysis) for the Python script and other resources.
    
