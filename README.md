@@ -1,1 +1,49 @@
-# Election_Analysis
+# Election Audit
+This report goes into details about an election audit that was requested by the Colorado Board of Elections.
+
+## Overview of Election audit
+The election board is mainly interested about the following-
+* The **voter turnout** for each county.
+* The **percentage** of votes from each county out of the **total count**.
+* The county with the **highest turnout**.
+* **Total** number of votes cast.
+* **Total number of votes** and the **percentage** each candidate received.
+* The **winner** of the election based on popular vote.
+* The winning vote count and the winning percentage.
+
+### Purpose
+The main purpose of this report is to analyze the election data and answer the questions mentioned above. This will help the Election Board to determine the winner as well as gathering important statistics about the election.
+
+## Election-Audit Results
+Lets take a closer look at the results:-
+* _How many votes were cast in this congressional election?_
+
+![image](https://user-images.githubusercontent.com/93144225/142713458-19c89e27-e652-4709-9dbd-af8ef0dfacab.png)
+
+* _Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct._
+
+![image](https://user-images.githubusercontent.com/93144225/142713492-21483446-fac2-40d5-bec7-79a735176825.png)
+
+* _Which county had the largest number of votes?_
+
+![image](https://user-images.githubusercontent.com/93144225/142713509-b3d57aa3-fc1f-471b-98c9-df6e8449ff93.png)
+
+* _Provide a breakdown of the number of votes and the percentage of the total votes each candidate received._
+
+![image](https://user-images.githubusercontent.com/93144225/142713538-2c991d01-cad4-4da0-9b6b-2a3369d0ee63.png)
+
+* _Which candidate won the election, what was their vote count, and what was their percentage of the total votes?_
+
+![image](https://user-images.githubusercontent.com/93144225/142713555-fe11722f-11b9-42f6-9fdc-d5638bf113d4.png)
+
+## Election-Audit Summary
+In conclusion, using our Python script is a very easy and efficient way to analyze large datasets and extract the required information.
+
+Manually counting ballots is very time consuming as well as labour intensive and there is always a chance for human error. Whereas our Python script can do the same job in a very convinient, accurate and fast manner. 
+
+With little modifications our script can be used for any elections and may be used to extract different information. Here are two examples:-
+*
+
+* _**Links**_
+  * Visit this [link](https://github.com/tanzimamin2/kickstarter-analysis) for the excel worksheet and other resources.
+   
