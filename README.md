@@ -41,7 +41,7 @@ In conclusion, using our Python script is a very easy and efficient way to analy
 
 Manually counting ballots is time consuming as well as labour intensive and there is always a chance for human error. Whereas our Python script can do the same job in a very convinient, accurate and fast manner. This inturn will save money for the Election Board.
 
-With little modifications our script can be used for any elections and may be used to extract different information. Here are two examples:-
+With little modifications our script can be used for any elections. Here are two examples:-
 * Python is a versatile language and can extract data from numerous file types other then CSV. Modify this line to change the file type. As a result, we can use other types of datasets for any other elections. 
 
 ```
